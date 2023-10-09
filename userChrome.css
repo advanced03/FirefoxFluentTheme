@@ -1,0 +1,42 @@
+/*AGENT_SHEET*/
+
+/* MDL2 */
+/* Pop-ups, Context Menus, Dropdowns, etc*/ 
+@import url(./css/context.css);
+
+/* Base Tags Theme */
+@import url(./css/tags.css);
+
+/* Pages */
+@import url(./css/pagesChrome.css);
+
+/* Styles */
+@import url(./css/styles/mdl2.css);
+@import url(./css/styles/sun-valley.css);
+
+/*
+@supports -moz-bool-pref("pref.here") {
+*/
+
+/* Custom CSS for userChrome.css */
+@import url(./customChrome.css);
+
+
+/* EdgeFr-Fox by bmFtZQ*/
+@import url("icons/icons.css");
+@import url("toolbar/tabbar.css");
+@import url("toolbar/navbar.css");
+@import url("toolbar/personalbar.css");
+@import url("toolbar/findbar.css");
+@import url("toolbar/urlbar.css");
+@import url("global/colors.css");
+@import url("global/popup.css");
+@import url("global/tweaks.css");
+@import url("global/browser.css");
+
+#sidebar-box *,
+#navigator-toolbox-background * {
+    transition: background-color 0.4s ease-out;
+}
+
+

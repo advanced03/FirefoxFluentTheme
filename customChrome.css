@@ -1,0 +1,6 @@
+/* Custom CSS for userChrome.css */
+
+:root {
+	--uwp-accent-color: AccentColor; /* Accent color */
+	--uwp-accent-text: AccentColorText; /* Accent color text */
+}
